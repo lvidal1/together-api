@@ -13,7 +13,7 @@ const app = express();
 const PORT = 5000;
 
 const corsOptions = {
-    origin: '*',
+    origin: 'https://together-ocr-ai.netlify.app/',
     methods: ['POST', 'GET', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }
